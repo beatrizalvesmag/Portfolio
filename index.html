@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beatriz - Desenvolvedora Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Beatriz Alves Magalhães </h1>
+                <samp class="nav-subtitle">Desenvolvedora Web</samp>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link"> Início</a></li>
+                <li><a href="#about" class="nav-link"> Sobre</a></li>
+                <li><a href="#skills" class="nav-link">  Habilidades</a></li>
+                <li><a href="#projects" class="nav-link"> Experiências</a></li>
+                <li><a href="#contact" class="nav-link"> Contato</a></li>
+            </ul>
+
+            <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema"> 
+                <span class="theme-icone">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero"class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Olá, eu sou <span class="highlight">Beatriz Alves</span></h2>        
+                <p class="hero-subtitle">Desenvolvedora Web</p>
+                <p class="hero-description">
+                    Desenvolvedora Web em constante aprendizado, foco em criar experiências digitais que unem inovação e design. Sempre em busca de desafios que estimulem a criatividade.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary"> Ver Projetos</a>
+                    <a href="#contact" class="btn btn-secondary"> Entre em Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder">
+                    <img src="bia.png" class="bia"></span>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+           <div class="container">
+                <h2 class="section-title"> Sobre mim </h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Olá! Meu nome é Beatriz Alves Magalhães, tenho 19 anos e moro em Itatiaia - Rj. Atualmente, estou cursando o 2º período de Arquitetura e Urbanismo, uma área que me encanta por unir criatividade, estética e a possibilidade de transformar ideias em espaços reais.
+                        </p>
+                        <p>Além disso, também curso o Técnico em Desenvolvimento de Sistemas no Senai de Resende, uma experiência que tem me ajudado a desenvolver o raciocínio lógico e a enxergar a tecnologia de um jeito mais prático e curioso.</p>
+                        <p>Ao longo do curso, venho aprendendo sobre programação, banco de dados e criação de interfaces, e percebo o quanto essas habilidades contribuem para minha forma de pensar e resolver problemas. </p>
+                        <p>Gosto de aprender coisas novas, explorar diferentes áreas e acredito que cada experiência, seja na arquitetura ou na tecnologia, me ajuda a crescer e a descobrir novas formas de colocar minhas ideias em prática.</p>
+                    </div>
+                </div>
+           </div>
+           
+        </section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">css</span>
+                            <span class="skill-tag">SCSS</span>
+                            <span class="skill-tag">JavaScript</span>
+
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Ferramentas</h3>
+                        <div class="skill-list">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Figma</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section">Meus projetos</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="projectplace-holder">
+                                🎮
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Pokedex</h3>
+                            <p>Fiz um projeto de Pokémon onde utilizei uma API para mostrar 50 Pokémon diferentes. Usei HTML, CSS e JavaScript. Foi um projeto muito interessante.
+                            
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">css</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-link">
+                                <a href="" class="projevt-link" target="_blank">Ver Demo</a>
+                                <a href="https://github.com/beatrizalvesmag/Pok-mon.git" class="projevt-link" target="_blank">Ver código</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="projectplace-holder">
+                                📱
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Tela de login </h3>
+                            <p>Fiz um projeto de tela de login usando HTML e CSS no Visual Studio Code. Esse projeto foi importante para eu praticar a criação de interfaces e entender melhor como o CSS pode deixar o design mais bonito e organizado.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">HTML</span>
+                            </div>
+                            <div class="project-link">
+                                <a href="#" class="projevt-link" target="_blank">Ver Demo</a>
+                                <a href="https://github.com/beatrizalvesmag/Tela-de-login.git" class="projevt-link" target="_blank">Ver código</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="eperience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Experiência</h2>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Auxiliar de secretaria escolar</h3>
+                        <h4>Estágio - Escola Campo Belo</h4>
+                        <span class="timeline-date"> 2022 - 2024</span>
+                        <p> Atuei como Auxiliar de Secretaria Escolar, realizando atendimento ao público, organização de documentos, apoio em matrículas e atualizações de dados escolares, desenvolvendo habilidades de organização e trabalho em equipe. </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Técnico em Desenvolvimento de Sistemas </h3>
+                        <h4>SENAI Resende / Jaguar Land Rover</h4>
+                        <span class="timeline-date"> 2025 - Presente</span>
+                        <p>Atualmente curso Técnico em Desenvolvimento de Sistemas pelo SENAI Resende, em parceria com a Jaguar Land Rover, como jovem aprendiz. Durante o programa, estou desenvolvendo habilidades em lógica de programação, front-end e back-end, banco de dados e além de adquirir experiência prática em projetos. </p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact-info">
+                <h3>Vamos trabalhar juntos!</h3>
+                <p>Estou sempre aberto a novas oportunidades e projetos interessantes. Entre em contato comigo para discutir projetos, oportunidades ou apenas para trocar ideias. </p>
+            </div>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <span class="contact-icon">✉️</span>
+                    <a href="mailto:ba608898@gmail.com">ba608898@gmail.com</a>
+                </div>
+                
+                <div class="contact-method">
+                    <span class="contact-icon">💼</span>
+                    <a href="#">Linkedin</a>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-icon">🐙</span>
+                    <a href="https://github.com/beatrizalvesmag">Github</a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name"></input>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"></input>
+                </div>
+                <div class="form-group">
+                    <label for="massage">Mensagem</label>
+                    <textarea type="text" id="name" name="name"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+            </div>
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Beatriz Alves. Todos os direito reservado.</p>
+            <p>Desenvolvido com ❤️ usando HTML, SCSS e JavaScript</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html> 
